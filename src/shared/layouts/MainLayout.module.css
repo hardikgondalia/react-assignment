@@ -1,0 +1,25 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contentContainer {
+  display: flex;
+  flex: 1;
+}
+
+.mainSection {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .contentContainer {
+    flex-direction: column;
+  }
+  
+  .mainContent {
+    padding: var(--spacing-lg);
+  }
+}
