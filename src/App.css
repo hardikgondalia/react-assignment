@@ -1,6 +1,6 @@
 @import 'pretendard/dist/web/variable/pretendardvariable.css';
 
-body {
+body, html {
   font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;

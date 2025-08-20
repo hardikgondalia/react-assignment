@@ -1,0 +1,13 @@
+.carouselCard {
+    height: 460px;
+    background: linear-gradient(270deg, #F4F4F6 0%, #F0F1F3 100%);
+}
+
+.carouselOverlay {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(236, 236, 236, 0) 8.86%, rgba(236, 236, 236, 0.5) 40.64%, #ECECEC 60.66%);
+}
+
+.carouselMaincard {
+    border-bottom-right-radius: 85px;
+}

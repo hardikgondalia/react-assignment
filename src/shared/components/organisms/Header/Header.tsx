@@ -16,7 +16,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="w-full md:h-[84px] h-[72px] md:px-[137px] px-5 flex md:justify-center justify-end items-center md:gap-[60px] gap-[26px] bg-transparent relative z-10">
+    <header className="w-full md:h-[84px] h-[72px] md:px-[137px] px-5 flex md:justify-center justify-end items-center md:gap-[60px] gap-[26px] bg-black fixed top-0 z-10">
       <img
         src={Logo}
         alt="Logo"

@@ -6,5 +6,5 @@ export const routes = {
   login: prefix + "login",
   signup: prefix + "signup",
 
-  main: prefix + "main",
+  main: prefix,
 };

@@ -9,10 +9,9 @@ import styles from "./MainLayout.module.css";
 export const MainLayout = () => {
   return (
     <main>
-      {/* <Outlet /> */}
       <HeroSectionPage />
       <div
-        className={`${styles.mainSection} md:pt-[120px] pt-[60px] md:pb-[120px] pb-[20px] flex flex-col md:gap-[152px] gap-[60px] relative`}
+        className={`${styles.mainSection} md:pt-[120px] pt-[60px] md:pb-[120px] pb-[20px] flex flex-col md:gap-[152px] md:gap-[60px] gap-[30px] relative`}
       >
         <ProductSliderPage />
         <ProductPage />

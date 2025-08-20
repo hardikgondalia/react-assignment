@@ -4,10 +4,10 @@ import  styles from "./HeroSection.module.css";
 
 export const HeroSectionPage = () => {
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative md:pt-[84px] pt-[72px]">
       <div className={`${styles.heroSection} w-full h-full`}></div>
       <Header />
-      <div className="w-full h-[calc(100vh-84px)] relative">
+      <div className="w-full md:h-[calc(100vh-84px)] h-[calc(100vh-72px)] relative">
         <img
           src={HeroSection}
           alt="HeroSection"
